@@ -1,0 +1,68 @@
+object Form9: TForm9
+  Left = 0
+  Top = 0
+  Caption = 'SimpleMain'
+  ClientHeight = 492
+  ClientWidth = 367
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Swipe1: TSwipe
+    Align = Bottom
+    Position.Y = 436.000000000000000000
+    Size.Width = 367.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Fill.Color = claWhite
+    Title = 'Options'
+    MultiView = MultiView1
+    FontColor = claNull
+  end
+  object MultiView1: TMultiView
+    DrawerOptions.Placement = Bottom
+    Mode = Drawer
+    Size.Width = 367.000000000000000000
+    Size.Height = 250.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 5
+    object Button1: TButton
+      Align = Bottom
+      Position.Y = 74.000000000000000000
+      Size.Width = 367.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Button1'
+    end
+    object Button2: TButton
+      Align = Bottom
+      Position.Y = 118.000000000000000000
+      Size.Width = 367.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Button1'
+    end
+    object Button3: TButton
+      Align = Bottom
+      Position.Y = 162.000000000000000000
+      Size.Width = 367.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Button1'
+    end
+    object Button4: TButton
+      Align = Bottom
+      Position.Y = 206.000000000000000000
+      Size.Width = 367.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Button1'
+    end
+  end
+end

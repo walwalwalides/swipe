@@ -1,0 +1,11 @@
+{
+	"name": "swipe",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "Src/",
+	"projects": [
+		"Swipe.dproj"
+	],
+	"dependencies": {}
+}
