@@ -30,8 +30,8 @@ package Swipe;
 
 requires
   rtl,
-  FrameStandPackage_10_3,
-  designide;
+  designide,
+  fmx;
 
 contains
   FMX.Swipe in 'Src\FMX.Swipe.pas',
